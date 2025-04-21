@@ -64,9 +64,16 @@ body {
     text-decoration: none;
     border-radius: 8px;
     font-size: 1.1em;
+    transition: all 0.3s ease;
   }
   
-  .produto, .garantia {
+  .btn-primary:hover,
+  .btn-big:hover {
+    background-color: #a62424;
+  }
+  
+  .produto,
+  .garantia {
     padding: 40px 20px;
     text-align: center;
   }
@@ -108,6 +115,7 @@ body {
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+    flex-wrap: wrap;
   }
   
   .imagens-ad img {
