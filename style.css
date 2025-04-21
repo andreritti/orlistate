@@ -45,6 +45,16 @@ body {
     margin-top: 10px;
   }
   
+  .product-image {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .product-image img {
+    max-height: 100px;
+    border-radius: 8px;
+  }
+  
   .hero {
     background: #f1f8e9; /* verde claro */
     padding: 60px 20px;
