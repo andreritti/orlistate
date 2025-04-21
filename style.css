@@ -15,7 +15,28 @@ body {
     background-color: #e53935;
     color: #fff;
     padding: 40px 20px;
-    text-align: center;
+    position: relative;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #e53935;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #ffeaea;
   }
   
   .slogan {
@@ -63,6 +84,26 @@ body {
   
   .btn-primary:hover {
     background-color: #a62424;
+  }
+  
+  .before-after {
+    background-color: #fce4ec;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border: 2px dashed #c62828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    color: #c62828;
+    font-weight: bold;
+    font-size: 1.2em;
   }
   
   footer {
