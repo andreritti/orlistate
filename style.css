@@ -150,5 +150,9 @@ body {
     height: 100%; /* ajuda no alinhamento vertical */
   }
   
+  .product-image img {
+    max-height: 70px;
+  }
+  
   
   
